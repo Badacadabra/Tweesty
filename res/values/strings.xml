@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tweesty</string>
+    <string name="add_user">Ajouter</string>
+    <string name="remove_user">Enlever</string>
+    <string name="placeholder">Entrez un utilisateur (sans le @)</string>
+    <string name="about">À propos</string>
+    <string name="about_label">Tweesty > À propos</string>
+    <string name="team">Équipe</string>
+    <string name="about_description">Tweesty est une application réalisée dans le cadre du M2-DNR2I à l\'université de Caen Normandie.</string>
+    <string name="about_alert">Attention : le mode paysage n\'a pas tout à fait les mêmes fonctionnalités que le mode portrait. Il convient de tester les deux orientations.</string>
+    <string name="settings">Paramètres</string>
+    <string name="settings_label">Tweesty > Paramètres</string>
+    <string name="list_title">Mises à jour</string>
+    <string name="list_dialog_title">Quand souhaitez-vous mettre à jour les données ?</string>
+    <string name="update_default">0</string>
+    <string name="delete_title">Réinitialiser la BDD</string>
+    <string name="delete_summary">Effacer la base et rétablir les données par défaut</string>
+
+</resources>

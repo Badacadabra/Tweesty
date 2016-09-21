@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blue"
+    tools:context="net.badacadabra.tweesty.MainActivity" >
+
+    <EditText
+        android:id="@+id/enterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder"
+        android:textColorHint="@color/silver"
+        android:padding="5dip"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	    <Button 
+	        android:id="@+id/button"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/add_user"
+	        android:textColor="@color/white"
+	        android:background="@color/dark"
+	        android:layout_marginTop="7dip"
+	        android:layout_marginBottom="7dip"
+	        android:onClick="addUserHandler" />
+	   
+	    <Button 
+	        android:id="@+id/button2"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/remove_user"
+	        android:textColor="@color/dark"
+	        android:background="@color/silver"
+	        android:layout_marginTop="7dip"
+	        android:layout_marginBottom="7dip"
+	        android:onClick="removeUserHandler" />
+	    
+	</LinearLayout>
+    
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+</LinearLayout>

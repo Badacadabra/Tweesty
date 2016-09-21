@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<ListPreference
+	android:key="updatePreferences"
+	android:title="@string/list_title"
+	android:dialogTitle="@string/list_dialog_title"
+	android:entries="@array/options_names"
+	android:entryValues="@array/options_values"
+	android:defaultValue="@string/update_default" />
+
+<Preference 
+    android:key="deleteDatabase"
+    android:title="@string/delete_title"
+    android:summary="@string/delete_summary" />
+ 
+</PreferenceScreen>
